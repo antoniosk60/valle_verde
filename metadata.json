@@ -1,0 +1,7 @@
+{
+  "name": "Restaurante Delar'te - Valle Verde",
+  "description": "Sitio web oficial de Restaurante Delar'te en Ixtapaluca. Especialistas en desayunos, comidas familiares y eventos con un toque artístico y tradicional.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

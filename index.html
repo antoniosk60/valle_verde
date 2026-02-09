@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Delar'te | Ixtapaluca Valle Verde - Sabor y Tradición</title>
+    <meta name="description" content="Disfruta de la mejor cocina en Restaurante Delar'te Valle Verde, Ixtapaluca. Especialistas en desayunos, menú ejecutivo, pizzas y eventos familiares. ¡Visítanos!" />
+    <meta name="keywords" content="restaurante ixtapaluca, valle verde comida, desayunos ixtapaluca, menú ejecutivo valle verde, restaurante familiar estado de mexico, pizzas ixtapaluca" />
+    <link rel="canonical" href="https://delarte-valleverde.com" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Restaurante Delar'te | Ixtapaluca Valle Verde" />
+    <meta property="og:description" content="Sabor, arte y tradición en cada platillo. Desayunos, comidas y cenas en Valle Verde, Ixtapaluca." />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:url" content="https://delarte-valleverde.com" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1200" />
+    
+    <!-- JSON-LD for Local Business SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Restaurante Delar'te Ixtapaluca Valle Verde",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1200",
+      "@id": "",
+      "url": "https://delarte-valleverde.com",
+      "telephone": "+5259747705",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Valle Verde",
+        "addressLocality": "Ixtapaluca",
+        "addressRegion": "Estado de México",
+        "postalCode": "56577",
+        "addressCountry": "MX"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.3175,
+        "longitude": -98.8954
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "20:00"
+        }
+      ],
+      "servesCuisine": ["Mexicana", "Italiana", "Internacional"],
+      "priceRange": "$$"
+    }
+    </script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+        background-color: #FAF9F6;
+      }
+      h1, h2, h3, h4, .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .gold-text { color: #D4AF37; }
+      .bg-dark-green { background-color: #062C22; }
+      .border-gold { border-color: #D4AF37; }
+      
+      @keyframes fade-in-up {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-out forwards;
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="text-[#111111]">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
